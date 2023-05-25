@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Link css -->
+  <link rel="stylesheet" href="./css/menu.css" />
+  <!-- Favicon -->
+  <link rel="icon" href="./image/favicons.ico" type="image/x-icon" />
+  <!-- Tipografía Adobe Fonts -->
+  <link rel="stylesheet" href="https://use.typekit.net/kex2fts.css" />
+  <!-- Animaciones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- Íconos Fontawesome -->
+  <script src="https://kit.fontawesome.com/a421c1d509.js" crossorigin="anonymous"></script>
+  <title>Menú</title>
+</head>
+
+<body>
+  <header>
+    <section id="logo-header">
+      <a href="./index.html" class="logo-png"> <img src="./image/logo_pizzeria.png" alt="logo pizzeria" /> </a>
+      <h2><a href="./index.html" class="nombre-pizzeria">PIZZA JAT</a></h2>
+    </section>
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="./index.html"> HOME </a></li>
+        <li><a href="./menu.html"> MENÚ </a></li>
+        <li><a href="./sucursales.html"> SUCURSALES </a></li>
+        <li><a href="./about.html"> SOBRE NOSOTROS </a></li>
+        <li><a href="./reservas.html" id="reservas-header"> RESERVAS </a></li>
+      </ul>
+      <i class="fa-solid fa-bars" id="toggle-header"></i>
+    </nav>
+  </header>
+
+  <main>
+    <section id="banner-menu">
+      <h1>MENÚ</h1>
+    </section>
+
+    <section id="nuestras-pizzas">
+      <h2> NUESTRAS <span>PIZZAS</span> </h2>
+      <p id="descripcion-titulo">¡Ya sea que estés buscando comida para almorzar o cenar, Pizza Jat tiene opciones para
+        todos! Nuestro
+        menú le ofrece una muestra de nuestras exclusivas pizzas al horno de ladrillos de carbón horneadas a la
+        perfección.</p>
+      <h4 class="titulo-categorias categorias-1200">CATEGORÍAS</h4>
+
+      <section id="menu-categorias2" class="select-menu">
+        <section class="select-btn">
+          <h4 class="sBtn-text"> Seleccione una opción </h4>
+          <i class="fa-solid fa-chevron-down"></i>
+        </section>
+
+        <ul class="options">
+          <li class="option">
+            <i class="fa-solid fa-pizza-slice"></i>
+            <span class="option-text">Pizzas Especiales</span>
+          </li>
+          <li class="option">
+            <i class="fa-solid fa-pizza-slice"></i>
+            <span class="option-text">Pizzas Clásicas</span>
+          </li>
+          <li class="option">
+            <i class="fa-solid fa-pizza-slice"></i>
+            <span class="option-text">Nuestras Pizzas</span>
+          </li>
+      </section>
+        
+      <section id="section-menu" class="section-menu">
+        <section id="menu1" class="cards-pizzas">
+          <article>
+            <h4 class="etiqueta-nueva">NUEVA!</h4>
+            <img src="./image/pizza_rucula.png" alt="imagen de pizza de rúcula">
+            <h3>RÚCULA</h3>
+            <p>Salsa, muzza, rúcula, jamón crudo, tomates deshidratados, parmesano</p>
+            <a href="./reservas.html#pedidos">
+              <h4 class="button-pedir">PEDIR</h4>
+            </a>
+          </article>
+          <article>
+            <h4 class="etiqueta-nueva">NUEVA!</h4>
+            <img src="./image/pizza_bomba.png" alt="imagen de pizza de huevo frito">
+            <h3>HUEVO FRITO</h3>
+            <p>Salsa, muzza, huevo frito, papas fritas, aceitunas y orégano</p>
+            <a href="./reservas.html#pedidos">
+              <h4 class="button-pedir">PEDIR</h4>
+            </a>
+          </article>
+          <article class="sin-etiqueta">
+            <img src="./image/pizza_huevo.png" alt="imagen de pizza de huevo">
+            <h3>HUEVO</h3>
+            <p>Salsa de tomate, muzzarella, huevo, aceitunas y orégano</p>
+            <a href="./reservas.html#pedidos">
+              <h4 class="button-pedir">PEDIR</h4>
+            </a>
+          </article>
+          <article class="sin-etiqueta">
+            <img src="./image/pizza_anana.png" alt="imagen de pizza de ananá">
+            <h3>ANANÁ</h3>
+            <p>Salsa, muzza, jamon cocido, rodaja de ananá y orégano</p>
+            <a href="./reservas.html#pedidos">
+              <h4 class="button-pedir">PEDIR</h4>
+            </a>
+          </article>
+          <article class="sin-etiqueta">
+            <img src="./image/pizza_pepperoni.png" alt="imagen de pizza de pepperoni">
+            <h3>PEPPERONI</h3>
+            <p>Salsa, muzza, rodajas de pepperoni, morrones, aceitunas verdes y orégano</p>
+            <a href="./reservas.html#pedidos">
+              <h4 class="button-pedir">PEDIR</h4>
+            </a>
+          </article>
+          <article class="sin-etiqueta">
+            <img src="./image/pizza_roquefort.png" alt="imagen de pizza roquefot">
+            <h3>ROQUEFORT</h3>
+            <p>Salsa, queso roquefort gratinado, morrones, huevo duro y aceitunas negras</p>
+            <a href="./reservas.html#pedidos">
+              <h4 class="button-pedir">PEDIR</h4>
+            </a>
+          </article>
+          <article class="sin-etiqueta">
+            <img src="./image/pizza_provolone.png" alt="imagen de pizza provolone">
+            <h3>PROVOLONE</h3>
+            <p>Salsa de tomate, provolone, aceitunas negras, orégano y oliva</p>
+            <a href="./reservas.html#pedidos">
+              <h4 class="button-pedir">PEDIR</h4>
+            </a>
+          </article>
+          <article class="sin-etiqueta">
+            <img src="./image/pizza_provenzal.png" alt="imagen de pizza provenzal">
+            <h3>PROVENZAL</h3>
+            <p>Salsa de tomate, muzza, provenzal, aceitunas verdes, orégano y oliva</p>
+            <a href="./reservas.html#pedidos">
+              <h4 class="button-pedir">PEDIR</h4>
+            </a>
+          </article>
+        </section>
+
+        <section id="menu2" class="cards-pizzas">
+          <article class="sin-etiqueta">
+            <img src="./image/pizza_muzarella.png" alt="imagen de pizza muzzarella">
+            <h3>MUZZARELLA</h3>
+            <p>Salsa de tomate, muzzarella, aceitunas verdes y orégano</p>
+            <a href="./reservas.html#pedidos">
+              <h4 class="button-pedir">PEDIR</h4>
+            </a>
+          </article>
+          <article class="sin-etiqueta">
+            <img src="./image/pizza_jamon.png" alt="imagen de pizza de jamón">
+            <h3>JAMÓN</h3>
+            <p>Salsa, muzza, jamón cocido, aceitunas verdes y orégano</p>
+            <a href="./reservas.html#pedidos">
+              <h4 class="button-pedir">PEDIR</h4>
+            </a>
+          </article>
+          <article class="sin-etiqueta">
+            <img src="./image/pizza_jamonymorron.png" alt="imagen de pizza de jamón y morrones">
+            <h3>JAMÓN Y MORRÓN</h3>
+            <p>Salsa de tomate, jamón cocido, morrones, aceitunas verdes y orégano</p>
+            <a href="./reservas.html#pedidos">
+              <h4 class="button-pedir">PEDIR</h4>
+            </a>
+          </article>
+          <article class="sin-etiqueta">
+            <img src="./image/pizza_napolitana.png" alt="imagen de pizza napolitana">
+            <h3>NAPOLITANA</h3>
+            <p>Salsa, muzza, rodajas de tomate natural, aceite de oliva, ajo y orégano</p>
+            <a href="./reservas.html#pedidos">
+              <h4 class="button-pedir">PEDIR</h4>
+            </a>
+          </article>
+          <article class="sin-etiqueta">
+            <img src="./image/pizza_salame.png" alt="imagen de pizza de salame">
+            <h3>SALAME</h3>
+            <p>Salsa, muzza, rodajas de salame, aceitunas verdes y orégano</p>
+            <a href="./reservas.html#pedidos">
+              <h4 class="button-pedir">PEDIR</h4>
+            </a>
+          </article>
+          <article class="sin-etiqueta">
+            <img src="./image/pizza_calabresa.png" alt="imagen de pizza calabresa">
+            <h3>CALABRESA</h3>
+            <p>Salsa, muzza, longaniza a la calabresa, morrones, aceitunas verdes y orégano</p>
+            <a href="./reservas.html#pedidos">
+              <h4 class="button-pedir">PEDIR</h4>
+            </a>
+          </article>
+          <article class="sin-etiqueta">
+            <img src="./image/pizza_cebolla.png" alt="imagen de pizza de cebolla">
+            <h3>CEBOLLA</h3>
+            <p>Salsa, muzza, cebolla en rodajas, aceitunas verdes y orégano</p>
+            <a href="./reservas.html#pedidos">
+              <h4 class="button-pedir">PEDIR</h4>
+            </a>
+          </article>
+          <article class="sin-etiqueta">
+            <img src="./image/pizza_fugazzeta.png" alt="imagen de pizza fugazzeta">
+            <h3>FUGAZZETA</h3>
+            <p>Salsa, muzza, cebolla, aceite de oliva, pimienta y orégano</p>
+            <a href="./reservas.html#pedidos">
+              <h4 class="button-pedir">PEDIR</h4>
+            </a>
+          </article>
+        </section>
+
+        <section id="menu3" class="cards-pizzas">
+          <article>
+            <h4 class="etiqueta-nueva">NUEVA!</h4>
+            <img src="./image/pizza_moderna.png" alt="imagen de pizza moderna">
+            <h3>MODERNA</h3>
+            <p>Salsa, muzza, rúcula, jamón crudo, tomates deshidratados, parmesano</p>
+            <a href="./reservas.html#pedidos">
+              <h4 class="button-pedir">PEDIR</h4>
+            </a>
+          </article>
+          <article>
+            <h4 class="etiqueta-nueva">NUEVA!</h4>
+            <img src="./image/pizza_alemana.png" alt="imagen de pizza alemana">
+            <h3>ALEMANA</h3>
+            <p>Salsa, muzza, cebolla caramelizada, salchicha parrillera y mostaza</p>
+            <a href="./reservas.html#pedidos">
+              <h4 class="button-pedir">PEDIR</h4>
+            </a>
+          </article>
+          <article class="sin-etiqueta">
+            <img src="./image/pizza_infierno.png" alt="imagen de pizza infierno">
+            <h3>INFIERNO</h3>
+            <p>Salsa, muzza, panceta feteada, jalapeños verdes en rodajas, cebolla morada y hojas de albahaca</p>
+            <a href="./reservas.html#pedidos">
+              <h4 class="button-pedir">PEDIR</h4>
+            </a>
+          </article>
+          <article class="sin-etiqueta">
+            <img src="./image/pizza_fugazzeta_pepperoni.png" alt="imagen de pizza fugazzeta y pepperoni">
+            <h3>FUGAZZETA DE PEPPERONI</h3>
+            <p>Salsa, muzza, cebolla, pepperoni, aceite de oliva, pimienta y orégano</p>
+            <a href="./reservas.html#pedidos">
+              <h4 class="button-pedir">PEDIR</h4>
+            </a>
+          </article>
+          <article class="sin-etiqueta">
+            <img src="./image/pizza_fugazzeta_jamon.png" alt="imagen de pizza fugazzeta y jamon">
+            <h3>FUGAZZETA DE JAMÓN</h3>
+            <p>Salsa, muzza, cebolla, jamón, aceite de oliva, pimienta y orégano</p>
+            <a href="./reservas.html#pedidos">
+              <h4 class="button-pedir">PEDIR</h4>
+            </a>
+          </article>
+          <article class="sin-etiqueta">
+            <img src="./image/pizza_especial_cebolla.png" alt="imagen de pizza cebolla">
+            <h3>ESPECIAL DE CEBOLLA</h3>
+            <p>Salsa, muzza, ebolla cortada en pluma, tomates cherrys confitados, aceitunas negras</p>
+            <a href="./reservas.html#pedidos">
+              <h4 class="button-pedir">PEDIR</h4>
+            </a>
+          </article>
+          <article class="sin-etiqueta">
+            <img src="./image/pizza_vegetariana.png" alt="imagen de pizza vegetariana">
+            <h3>VEGETARIANA</h3>
+            <p>Salsa, muzza, berenjena asada, tomates cherrys, aceitunas y hojas de albahaca</p>
+            <a href="./reservas.html#pedidos">
+              <h4 class="button-pedir">PEDIR</h4>
+            </a>
+          </article>
+        </section>
+      </section>
+    </section>
+
+    <section id="seccion-app">
+      <img src="./image/celular_app_productos.png" alt="imagen de celular" class="celular celular1">
+      <img src="./image/celular_app_productos2.png" alt="imagen de celular" class="celular celular2">
+      <section id="descarga-app">
+        <h2>DESCARGÁ LA <span>APP</span> </h2>
+        <h3>Hacé tus pedidos y disfrutá de cupones</h3>
+        <h4>Puedes descargar la app de Pizza Jat en:</h4>
+        <section id="button-app">
+          <a href="https://www.apple.com/la/app-store/" target="_blank"> <img src="./image/descargar_app-apple.png"
+              alt="boton de la app en apple store" id="descargar-apple"> </a>
+          <a href="https://play.google.com/store/apps" target="_blank"> <img src="./image/descargar_app-google.png"
+              alt="boton de la app en google store"> </a>
+        </section>
+      </section>
+    </section>
+
+  </main>
+
+  <footer>
+    <section id="logo-footer">
+      <a href="./index.html" class="logo-png"> <img src="./image/logo_pizzeria.png" alt="logo pizzeria" /> </a>
+      <h2><a href="./index.html" class="nombre-pizzeria">PIZZA JAT</a></h2>
+    </section>
+
+    <nav class="nav-footer nav-contacto">
+      <h3>CONTACTO</h3>
+      <ul>
+        <li> <i class="fa-solid fa-location-dot"></i><span> Cabildo 938, Buenos Aires </span> </li>
+        <li> <i class="fa-solid fa-envelope"></i><span> contacto@pizzajat.com </span> </li>
+        <li> <i class="fa-solid fa-phone"></i><span class="telefono">1144556677</span> </li>
+      </ul>
+    </nav>
+
+    <nav class="nav-footer nav-seguinos">
+      <h3>SEGUINOS</h3>
+      <ul>
+        <li> <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a> </li>
+        <li> <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+        </li>
+        <li> <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a> </li>
+      </ul>
+    </nav>
+
+    <nav class="nav-footer nav-legales">
+      <h3>LEGALES</h3>
+      <ul>
+        <li> <a href="./index.html"><i class="fa-solid fa-angle-right"></i> Términos y Condiciones</a> </li>
+      </ul>
+    </nav>
+  </footer>
+
+  <script src="./js/header.js"></script>
+  <script src="./js/menu.js"></script>
+</body>
+</html>
